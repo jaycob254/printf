@@ -20,6 +20,9 @@ int _printf(const char *format, ...)
 		{"d", print_integer},
 
 		{"i", print_integer},
+
+		{"b", print_binary},
+
 		{NULL, NULL}
 	};
 	va_list arg_list;
